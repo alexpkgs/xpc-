@@ -4,7 +4,6 @@
 #include <sys/utsname.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include "android-termux.c"
 
 #define write_str(fd, str) write(fd, str, strlen(str))
 
